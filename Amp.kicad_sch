@@ -266,6 +266,125 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1126,12 +1245,6 @@
 		(uuid "84820e98-ebec-4cf7-8175-038c2d173fe4")
 	)
 	(junction
-		(at 156.21 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3522a8d-4ce1-4e61-9a74-5467d4fc8530")
-	)
-	(junction
 		(at 142.24 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1302,16 +1415,6 @@
 			(type default)
 		)
 		(uuid "1f6302f2-ba2f-42d4-a309-a1723a823efd")
-	)
-	(wire
-		(pts
-			(xy 156.21 43.18) (xy 158.75 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2381081e-d301-4b1a-9417-3db672ef7aac")
 	)
 	(wire
 		(pts
@@ -1675,16 +1778,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 59.69) (xy 156.21 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc159727-58e6-4e98-bc8f-4748932e6f5c")
-	)
-	(wire
-		(pts
 			(xy 142.24 134.62) (xy 146.05 134.62)
 		)
 		(stroke
@@ -1822,16 +1915,6 @@
 			(type default)
 		)
 		(uuid "edb05aff-9c6e-493f-9e6a-a3caeaaa266b")
-	)
-	(wire
-		(pts
-			(xy 156.21 43.18) (xy 156.21 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee670f60-5d8c-420c-9d01-bd7c196d2970")
 	)
 	(wire
 		(pts
@@ -2076,6 +2159,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4954b08-5f36-4e2b-ae6e-ff0cc5623b13")
 		)
@@ -2150,6 +2260,33 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package-Footprint" ""
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -2241,6 +2378,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0b5023f-5fad-4905-8874-dfa3d9203ea0")
 		)
@@ -2255,6 +2419,77 @@
 				)
 				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/407905e9-d941-4945-8e4f-0611859cee44"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 156.21 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "3c7d9c64-d3d1-43c6-8c02-e12b3cedbfd4")
+		(property "Reference" "J2"
+			(at 157.0482 37.5228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 157.0482 39.9471 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb2b8f0-78b8-4d3b-a90b-7d2f0f44d6e6")
+		)
+		(instances
+			(project "StrainGuageAmpV1_0"
+				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/56bf99a0-b212-4e7d-ae49-7be131f3d639"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/407905e9-d941-4945-8e4f-0611859cee44"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2393,6 +2628,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc8c44c3-9faa-49b8-97ac-af671520c416")
 		)
@@ -2421,8 +2683,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59961251-3053-43ef-85a8-18dd8530489f")
-		(property "Reference" "R4"
+		(uuid "5a22ce49-ab43-4aad-a8f3-d3ab1b27fbce")
+		(property "Reference" "R1"
 			(at 107.95 38.0195 90)
 			(effects
 				(font
@@ -2430,7 +2692,7 @@
 				)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "120"
 			(at 107.95 40.4438 90)
 			(effects
 				(font
@@ -2465,7 +2727,34 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25308"
+		(property "LCSC" "C17437"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package-Footprint" ""
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
 			(at 107.95 43.18 0)
 			(effects
 				(font
@@ -2475,121 +2764,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3934eb99-356c-4481-992f-16be61cf08aa")
+			(uuid "4304116b-ba25-4052-a8e8-b48375adc7f6")
 		)
 		(pin "2"
-			(uuid "de8af095-702a-4377-8d85-a10291cfc204")
+			(uuid "301a7e71-6fa7-475a-8006-59278ea8e488")
 		)
 		(instances
 			(project "StrainGuageAmpV1_0"
 				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/56bf99a0-b212-4e7d-ae49-7be131f3d639"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/407905e9-d941-4945-8e4f-0611859cee44"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM358")
-		(at 158.75 52.07 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b8a2ee9-8d39-4237-9ab0-0f90f8fb327c")
-		(property "Reference" "U2"
-			(at 156.845 50.8578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM358"
-			(at 156.845 53.2821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5423"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "dc18d6b2-6b84-4101-9ed6-2bdc71fc5b59")
-		)
-		(pin "6"
-			(uuid "91c5e571-8a36-439c-bf47-2a43fc411801")
-		)
-		(pin "4"
-			(uuid "409f51fd-c2de-44b7-8a84-085c9f4d2e98")
-		)
-		(pin "2"
-			(uuid "c4f259f1-e524-426d-abdd-34e49d8bb137")
-		)
-		(pin "3"
-			(uuid "3f43b9f5-a115-4a50-9c82-434681272fdc")
-		)
-		(pin "5"
-			(uuid "75b11a12-d533-4195-ad6f-1b058c867f93")
-		)
-		(pin "8"
-			(uuid "7d588134-be18-4f7d-b94c-1cbe6bc9bbe7")
-		)
-		(pin "1"
-			(uuid "aa91b99a-1ca3-4d02-bba3-d39662b1436e")
-		)
-		(instances
-			(project "StrainGuageAmpV1_0"
-				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/56bf99a0-b212-4e7d-ae49-7be131f3d639"
-					(reference "U2")
-					(unit 3)
-				)
-				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/407905e9-d941-4945-8e4f-0611859cee44"
-					(reference "U4")
-					(unit 3)
 				)
 			)
 		)
@@ -2649,6 +2837,33 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package-Footprint" ""
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
 			(at 134.62 48.26 0)
 			(effects
 				(font
@@ -2808,6 +3023,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e5aa7e0-14e6-46d7-87f0-37d0047ba604")
 		)
@@ -2899,6 +3141,33 @@
 			)
 		)
 		(property "LCSC" "C17737"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package-Footprint" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
 			(at 110.49 105.41 0)
 			(effects
 				(font
@@ -3130,6 +3399,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 180.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 180.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 180.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b288156-48b0-43ac-98fb-fc0f3a34d030")
 		)
@@ -3205,6 +3501,33 @@
 			)
 		)
 		(property "LCSC" "C17437"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package-Footprint" ""
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -3438,6 +3761,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "14492711-dc1e-44cb-8826-767fe1dc5166")
 		)
@@ -3455,76 +3805,6 @@
 				)
 				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/407905e9-d941-4945-8e4f-0611859cee44"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfbe0ae1-c7b4-439f-bedb-666061199c7e")
-		(property "Reference" "#PWR02"
-			(at 156.21 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 65.0931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5da6aee-1fb3-4c9c-88c0-c5d23899a349")
-		)
-		(instances
-			(project "StrainGuageAmpV1_0"
-				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/56bf99a0-b212-4e7d-ae49-7be131f3d639"
-					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/f55a5a86-aba9-49b6-a128-5f0cb69330e2/407905e9-d941-4945-8e4f-0611859cee44"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3592,6 +3872,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e6d74a1-a6b9-45e2-b78c-be31975165c5")
 		)
@@ -3617,7 +3924,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d42c7afc-94aa-4b20-83a9-0037d350ca18")
@@ -3667,6 +3974,33 @@
 			)
 		)
 		(property "LCSC" "C118911"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package-Footprint" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
 			(at 142.24 123.19 0)
 			(effects
 				(font
@@ -3831,6 +4165,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da11f234-4cc5-4c96-b8c1-775fe6336edd")
 		)
@@ -3914,6 +4275,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe8cce4c-8c85-47b9-a78d-995b24f3ceae")
 		)
@@ -3987,6 +4375,33 @@
 			)
 		)
 		(property "LCSC" "C2930199"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package-Footprint" ""
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
 			(at 128.27 97.79 0)
 			(effects
 				(font
@@ -4078,6 +4493,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package-Footprint" ""
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f24b5942-f3ac-432a-a84e-3b03e12fd3c0")
 		)
@@ -4151,6 +4593,33 @@
 			)
 		)
 		(property "LCSC" "C5423"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package-Footprint" ""
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
 			(at 163.83 110.49 0)
 			(effects
 				(font

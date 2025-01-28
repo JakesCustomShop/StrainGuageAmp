@@ -59,7 +59,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|192737500|55245000|bebf1149-c1da-4de5-a6ef-745f895c9fb4|25532fe4-4cc7-4638-9424-2649b121b549|F.Cu",
+        "starved_thermal|197805000|40640000|bebf1149-c1da-4de5-a6ef-745f895c9fb4|fbfa06db-15b6-4312-bc9f-8ecece53c6c5|F.Cu",
+        "starved_thermal|197805000|58420000|bebf1149-c1da-4de5-a6ef-745f895c9fb4|faf4912f-4fa2-4c5f-af80-8eb431f2a189|F.Cu",
+        "starved_thermal|215805000|41370000|bebf1149-c1da-4de5-a6ef-745f895c9fb4|e76bd884-a53c-4131-b51d-7ff080ec5377|F.Cu",
+        "starved_thermal|215805000|48990000|bebf1149-c1da-4de5-a6ef-745f895c9fb4|04a2593a-a6b7-4735-857b-f38bb611f39f|F.Cu",
+        "starved_thermal|215900000|58062500|bebf1149-c1da-4de5-a6ef-745f895c9fb4|cbae5771-c177-47ca-8e8a-4c3ade20ec47|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -496,8 +503,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "GERBERs/",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -522,15 +529,15 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
@@ -552,10 +559,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -598,13 +605,25 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COLOR",
+          "name": "COLOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
